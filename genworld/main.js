@@ -1,6 +1,6 @@
-const wdim = 900
+const wdim = window.innerHeight
 const bdim = 60
-const cdim = wdim/bdim
+const cdim = Math.floor(wdim/bdim)
 
 function seedDungeon (fillCond) {
   let b = []
